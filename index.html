@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>CGPA Calculator</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/png" href="calc.png"/>
+        
+    </head>
+    <body>
+        <header class="header">
+            <h1>CGPA CALCULATOR</h1>
+            <p class="header2">Calculate you CGPA by providing the marks of all the tests you've given.<br>You can also put marks that you must get for predicting your desired CGPA.</p>
+        </header>
+        
+        <div>
+            <div class="main"><h2>Internal Assessment Test-I</h2>(Out of 50 )<br>
+                <input class="subjects" id="sub1" type="text" placeholder="Subject 1">
+                <input class="subjects" id="sub2" type="text" placeholder="Subject 2">
+                <input class="subjects" id="sub3" type="text" placeholder="Subject 3">
+                <input class="subjects" id="sub4" type="text" placeholder="Subject 4">
+                <input class="subjects" id="sub5" type="text" placeholder="Subject 5">
+                <input class="subjects" id="sub6" type="text" placeholder="Subject 6">
+            </div>
+            <div class="main"><h2>Internal Assessment Test-II</h2>(Out of 50 )<br>
+                <input class="subjects" id="sub7" type="text" placeholder="Subject 1">
+                <input class="subjects" id="sub8" type="text" placeholder="Subject 2">
+                <input class="subjects" id="sub9" type="text" placeholder="Subject 3">
+                <input class="subjects" id="sub10" type="text" placeholder="Subject 4">
+                <input class="subjects" id="sub11" type="text" placeholder="Subject 5">
+                <input class="subjects" id="sub12" type="text" placeholder="Subject 6"></div>
+            <div class="main"><h2>Internal Assessment Test-III</h2>(Out of 50 )<br>
+                <input class="subjects" id="sub13" type="text" placeholder="Subject 1">
+                <input class="subjects" id="sub14" type="text" placeholder="Subject 2">
+                <input class="subjects" id="sub15" type="text" placeholder="Subject 3">
+                <input class="subjects" id="sub16" type="text" placeholder="Subject 4">
+                <input class="subjects" id="sub17" type="text" placeholder="Subject 5">
+                <input class="subjects" id="sub18" type="text" placeholder="Subject 6"></div>
+            <div class="main"><h2>AAT Quiz</h2>(Out of 10 )<br>
+                <input class="subjects" id="sub19" type="text" placeholder="Subject 1">
+                <input class="subjects" id="sub20" type="text" placeholder="Subject 2">
+                <input class="subjects" id="sub21" type="text" placeholder="Subject 3">
+                <input class="subjects" id="sub22" type="text" placeholder="Subject 4">
+                <input class="subjects" id="sub23" type="text" placeholder="Subject 5">
+                <input class="subjects" id="sub24" type="text" placeholder="Subject 6"></div>
+            <div class="main"><h2>Open Assignment Test</h2>(Out of 10 )<br>
+                <input class="subjects" id="sub25" type="text" placeholder="Subject 1">
+                <input class="subjects" id="sub26" type="text" placeholder="Subject 2">
+                <input class="subjects" id="sub27" type="text" placeholder="Subject 3">
+                <input class="subjects" id="sub28" type="text" placeholder="Subject 4">
+                <input class="subjects" id="sub29" type="text" placeholder="Subject 5">
+                <input class="subjects" id="sub30" type="text" placeholder="Subject 6"></div>
+            <div class="main"><h2>Semester End Examinations</h2>(Out of 100 )<br>
+                    <input class="subjects" id="sub31" type="text" placeholder="Subject 1">
+                    <input class="subjects" id="sub32" type="text" placeholder="Subject 2">
+                    <input class="subjects" id="sub33" type="text" placeholder="Subject 3">
+                    <input class="subjects" id="sub34" type="text" placeholder="Subject 4">
+                    <input class="subjects" id="sub35" type="text" placeholder="Subject 5">
+                    <input class="subjects" id="sub36" type="text" placeholder="Subject 6"></div>
+        </div>
+        <div><input type="button" value="Calculate" id="submit" onclick="submitting()">
+        <div class="hidden" id="grade" > 
+            <!-- class="hidden" -->
+            <table>
+                <tr>
+                  <th>Subjects</th>
+                  <th>Grade Points</th>
+                </tr>
+                <tr>
+                  <td>Subject 1</td>
+                  <td id="g1"></td>
+                </tr>
+                <tr>
+                  <td>Subject 2</td>
+                  <td id="g2"></td>
+                </tr>
+                <tr>
+                    <td>Subject 3</td>
+                    <td id="g3"></td>
+                  </tr>
+                  <tr>
+                    <td>Subject 4</td>
+                    <td id="g4"></td>
+                  </tr>
+                  <tr>
+                    <td>Subject 5</td>
+                    <td id="g5"></td>
+                  </tr>
+                  <tr>
+                    <td>Subject 6</td>
+                    <td id="g6"></td>
+                  </tr>
+                  <tr>
+                    <td>CGPA</td>
+                    <td id="cgpa"></td>
+                  </tr>
+              </table>
+            
+        </div> </div>
+    </body>
+    <script src="index.js"></script>
+</html>
