@@ -42,6 +42,43 @@ const submitting= ()=>{
     let sub34= document.getElementById('sub34').value;
     let sub35= document.getElementById('sub35').value;
     let sub36= document.getElementById('sub36').value;
+    if(sub1==""){sub1=0;}
+    if(sub2==""){sub2=0;}
+    if(sub3==""){sub3=0;}
+    if(sub4==""){sub4=0;}
+    if(sub5==""){sub5=0;}
+    if(sub6==""){sub6=0;}
+    if(sub7==""){sub7=0;}
+    if(sub8==""){sub8=0;}
+    if(sub9==""){sub9=0;}
+    if(sub10==""){sub10=0;}
+    if(sub11==""){sub11=0;}
+    if(sub12==""){sub12=0;}
+    if(sub13==""){sub13=0;}
+    if(sub14==""){sub14=0;}
+    if(sub15==""){sub15=0;}
+    if(sub16==""){sub16=0;}
+    if(sub17==""){sub17=0;}
+    if(sub18==""){sub18=0;}
+    if(sub19==""){sub19=0;}
+    if(sub20==""){sub20=0;}
+    if(sub21==""){sub21=0;}
+    if(sub22==""){sub22=0;}
+    if(sub23==""){sub23=0;}
+    if(sub24==""){sub24=0;}
+    if(sub25==""){sub25=0;}
+    if(sub26==""){sub26=0;}
+    if(sub27==""){sub27=0;}
+    if(sub28==""){sub28=0;}
+    if(sub29==""){sub29=0;}
+    if(sub30==""){sub30=0;}
+    if(sub31==""){sub31=0;}
+    if(sub32==""){sub32=0;}
+    if(sub33==""){sub33=0;}
+    if(sub34==""){sub34=0;}
+    if(sub35==""){sub35=0;}
+    if(sub36==""){sub36=0;}
+
 
     let subject1= parseFloat(sub1)/5 +parseFloat(sub7)/5 +parseFloat(sub13)/5 +parseFloat(sub19)+parseFloat(sub25)+ parseFloat(sub31)/2;
     let subject2= parseFloat(sub2)/5 +parseFloat(sub8)/5 +parseFloat(sub14)/5 +parseFloat(sub20)+parseFloat(sub26)+ parseFloat(sub32)/2;

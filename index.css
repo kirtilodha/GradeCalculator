@@ -86,3 +86,13 @@ td{
     
 }
 
+
+@media (max-width:991px) {
+    .main{
+        display: inline-block;
+        float: none;
+        width: 43%;
+        height: 25%;
+    }
+    
+}
